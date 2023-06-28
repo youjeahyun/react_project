@@ -1,7 +1,7 @@
 import React from "react";
 import {useCookies} from "react-cookie"
 import {useNavigate} from "react-router-dom";
-import {NavLink} from "react-router-dom";
+import {NavLink, Link} from "react-router-dom";
 
 const Header = () => {
     const [, , removeCookie] = useCookies(['X-AUTH-TOKEN']);

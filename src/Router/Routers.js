@@ -20,7 +20,7 @@ const Routers = () => {
                     <Route path='/profile' element={<Profile/>}/>
                 </Route>
                 <Route element={<PublicRoute><LayoutType1/></PublicRoute>}>
-                    <Route index element={<Home/>}/>
+                    <Route path='/' element={<Home/>}/>
                 </Route>
                 <Route element={<PublicRoute><LayoutType2/></PublicRoute>}>
                     <Route path="*" element={<Error/>}/>
